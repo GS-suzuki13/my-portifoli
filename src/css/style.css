@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", Helvetica, sans-serif;
+    font-size: 12px;
+    background: #2980b9 url('https://static.tumblr.com/03fbbc566b081016810402488936fbae/pqpk3dn/MRSmlzpj3/tumblr_static_bg3.png') repeat 0 0;
+    -webkit-animation: 30s linear 0s normal none infinite animate;
+    -moz-animation: 30s linear 0s normal none infinite animate;
+    -ms-animation: 30s linear 0s normal none infinite animate;
+    -o-animation: 30s linear 0s normal none infinite animate;
+    animation: 30s linear 0s normal none infinite animate;
+  }
+  
+  @keyframes animate {
+    0% { background-position: 0 0; }
+    100% { background-position: 1000px 0; }
+  }
+  
