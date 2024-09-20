@@ -1,8 +1,8 @@
 import { styled, Container, Typography } from "@mui/material"
 import Grid from '@mui/material/Grid2'
 import Avatar from "../../../../assets/images/avatar.jpg"
-import FileDownloadIcon from '@mui/icons-material/FileDownload';
-import MailOutlineIcon from '@mui/icons-material/MailOutline';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import StyledButton from "../../../../components/StyledButton/StyledButton";
 
 
@@ -38,16 +38,16 @@ const Hero = () => {
                         </Typography>
                         <Grid container direction={{ xs:"column", md:"row"}} justifyContent={"center"} spacing={3}>
                         <Grid size={{ xs:12, md:4 }} display={"flex"} justifyContent={"center"} pt={3}>
-                            <StyledButton>
-                                <FileDownloadIcon/>
+                            <StyledButton onClick={() => window.open("https://www.linkedin.com/in/gustavo-suzuki-858189163/")}>
+                                <LinkedInIcon/>
                                 <Typography>
-                                    Download CV
+                                    Visit My Profile
                                 </Typography>
                             </StyledButton>
                         </Grid>
                         <Grid size={{ xs:12, md:4 }} display={"flex"} justifyContent={"center"} pt={3}>
-                            <StyledButton>
-                                <MailOutlineIcon/>
+                            <StyledButton onClick={() => window.open("https://wa.me/5547997609807")}>
+                                <WhatsAppIcon/>
                                 <Typography>
                                     Contact me
                                 </Typography>
